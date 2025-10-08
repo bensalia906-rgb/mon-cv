@@ -1,25 +1,50 @@
-```html
-<h2>🛍️ Mes produits</h2>
+.product p {
+        font-size: 14px;
+        color: #555;
+      }
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <!-- Produit 1 -->
-  <div style="width: 200px; border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
-    <img src="https://via.placeholder.com/180" alt="Produit 1" style="width: 100%;">
-    <h4>Sac à main tendance</h4>
-    <p>Prix : 3500 F CFA (livraison incluse)</p>
-    <a href="https://wa.me/22657863237?text=Je%20veux%20commander%20le%20sac%20à%203500F" target="_blank" class="whatsapp-btn">Commander</a>
-  </div>
+      .whatsapp-btn {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+        background: #25d366;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
 
-  <!-- Produit 2 (copie et modifie) -->
-  <!--
-  <div style="width: 200px; border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
-    <img src="LIEN_IMAGE" alt="Nom produit" style="width: 100%;">
-    <h4>Nom du produit</h4>
-    <p>Prix : xxxx F</p>
-    <a href="https://wa.me/22657863237?text=Je%20veux%20commander%20PRODUIT" target="_blank" class="whatsapp-btn">Commander</a>
-  </div>
-  -->
-</div>
+      .whatsapp-btn:hover {
+        background: #1ebe5b;
+      }
+
+      .site-link {
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: bold;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shop">
+      <div class="site-link">Site officiel : <strong>benshop.fr</strong></div>
+      <h1>Benshop</h1>
+      <h2>🛍️ Nos produits</h2>
+
+      <div class="products">
+        <!-- Produit cagoules -->
+        <div class="product">
+          <img src="https://i.imgur.com/OpMyG0I.jpg" alt="Cagoules">
+          <h3>Cagoules</h3>
+          <p>Prix : 4 500 F CFA (livraison incluse)</p>
+          <a class="whatsapp-btn" target="_blank" href="https://wa.me/22657863237?text=Je%20veux%20commander%20les%20cagoules%20à%204500F">Commander sur WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
 ```
 
 ---
